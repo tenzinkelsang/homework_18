@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+/*MY UX SKILLS*/
+
+#two {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 94vw;
+    height: 50vh;
+}
+
+#mywork {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 96vw;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    width: fit-content;
+}
+
+.myUXSkills {
+    margin: 125px 0 0 100px;
+    display: inline-block;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.about h1 {
+    margin: 1%;
+}
+
+.div1-2 {
+    height: 300px;
+}
+
+.div1-2 p {
+    width: 400px;
+    height: 70px;
+}
+
+
+#test.p {
+    width: 40px;
+}
+
+/* Images */
+
+.pic1 {
+    height: 250px;
+    width: 250px;
+    margin: -30px;
+}
+
+@media only screen and (min-width: 1025px) {
+    #two {
+        flex-direction: row;
+        height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #mywork {
+        flex-direction: row;
+        height: 465px;
+        width: 98vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .pic1 {
+        height: 300px;
+        width: 300px;
+        margin: -60px;
+    }
+
+    .div1-2 p{
+        width: 300px;
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .div1-2 p{
+        width: 360px;
+        height: 70px;
+    }
+}
+
+/*MY UX SKILLS END*/
+
+
+/*My Work*/
+
+#work {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    margin: 1%;
+    width: auto;
+    height: 350vh;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    width: auto;
+    height: 850px;
+}
+
+.text {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5%;
+    width: auto;
+}
+
+.text h3 {
+    width: 200px;
+    margin: 5px;
+}
+
+.text h1 {
+    width: 80px;
+    margin: 5px;
+}
+
+.text p {
+    width: 400px;
+    height: auto;
+    margin: 5px;
+}
+
+.kivaImg {
+    display: flex;
+    background-color: #719D9A;
+    align-items: center;
+    justify-content: center;
+}
+
+.nearbyImg {
+    display: flex;
+    background-color: #EBC8CB;
+    align-items: center;
+    justify-content: center;
+}
+
+.ftcImg {
+    display: flex;
+    background-color: #CF5D2D;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture3 {
+    height: 400px;
+    width: 200px;
+}
+
+.testwrapper {
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    margin: 5%;
+    justify-self: center;
+}
+
+@media only screen and (min-width: 1025px) {
+    #work {
+        height: 2200px;
+    }
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+        height: 700px;
+    }
+
+    .kivaImg {
+        height: 690px;
+    }
+
+    .nearbyImg {
+        height: 690px;
+    }
+
+    .ftcImg {
+        height: 690px;
+    }
+
+    .picture3 {
+        height: 550px;
+        width: 250px;
+    }
+
+    button {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .text {
+        align-self: center;
+    }
+
+    .testwrapper {
+        display: grid;
+        justify-content: center;
+        margin-top: 150px;
+    }
+}
+
+/*My Work End*/
+
+body {
+    margin: 0;}
+
+.preload {
+    font-family: Montserrat, sans-serif;
+}
+
+
+#logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+    color: #ffffff !important;   
+}
+
+/*Background Colors*/
+#background {
+    width: auto;
+    height: 90vh;
+}
+
+.uno {
+    position: absolute;
+    margin: 0;
+    height: 80%;
+    width: 95%;
+    background: #BC5D51;
+    z-index: 1;
+}
+
+.home {
+    position: absolute;
+    background-color: #E8DFE0;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+    height: 65%;
+    overflow: hidden;
+    padding: 5%;
+    z-index: 2;
+}
+
+
+.home img {
+    height: 400px;
+    width: 380px;
+    border-radius: 50%;
+    float: right;
+}
+
+/*Background Colors End*/
+
+
+/*Projects*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    position: relative;
+    margin: 100px;
+
+}
+.test_content {
+    align-self: center;
+    justify-self: center;
+    padding: 15px;
+}
+
+.content2 {
+    margin: 10px;
+    padding: 50px 150px 50px 150px;
+    justify-self: center;
+}
+
+.testimage {
+    height: 500px;
+    width: 240px;
+    margin-top: 10px;
+}
+
+.btn {
+    text-align: center;
+}
+
+/*Nearby*/
+.one {
+    background-color: #EBC8CB;
+}
+
+
+/*Kiva*/
+.two {
+    background-color: #719D9A;
+}
+
+/*FTC*/
+.three {
+    background-color: #CF5D2D;
+}
+
+.getintouch{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.getintouch button {
+    background-color: #F3D250;  
+}
+
+/*Footer*/
+#footer {
+    padding: 5px;
+    background:#E8DFE0;
+    text-align: right;
+}
+
+.footer1 li {
+    padding-right: 15px;
+}
+
+.menu-link {
+    color: black;
+}
+
+/*Get In Touch*/
+#mailimage {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.menu-link a {
+    color: black;
+}
+
+/*Banner*/
+
+.banner {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #18343C;
+    text-align: center;
+    color: white;
+}
+
+/*NavBar*/
+#navigationbar {
+    z-index: 3;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #18343C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
